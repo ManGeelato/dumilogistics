@@ -3,54 +3,109 @@ import "./Home.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
-import MercedesLogo from '../../assets/MercLogo.jpg'
-import MazdaLogo from '../../assets/MAZDABADGE.jpg'
-import BMWLogo from '../../assets/bmwLogo.jpg'
-import VWLogo from '../../assets/vwLogo.jpg';
-import Service01 from "../../assets/1.jpg";
-import Service02 from "../../assets/shaft.jpg";
-import Service03 from "../../assets/compressorWheel.jpg";
-import Service04 from "../../assets/turboShaft.jpg";
-import Service05 from "../../assets/5.jpg";
-import Service06 from "../../assets/BearingHousing.jpg";
-import { GoogleReCaptchaProvider, GoogleReCaptcha } from "react-google-recaptcha-v3";
+import Service01 from "../../logiPics/3803195.jpg";
+import Service02 from "../../logiPics/2121.jpg";
+import Service03 from "../../logiPics/6232748.jpg";
+import Service04 from "../../logiPics/6333.jpg";
+import Service05 from "../../logiPics/7466881.jpg";
+import Service06 from "../../logiPics/20341.jpg";
+
+import Beitbridge from '../../logiPics/beitbridge.jpg';
+import Bulawayo from '../../logiPics/bulawayo.jpg';
+import Gwanda from '../../logiPics/Gwanda.jpg';
+import Harare from '../../logiPics/harare.jpg';
+import Joburg from '../../logiPics/joburg.jpg';
+import Limpopo from '../../logiPics/limpopo.jpg';
+import Pretoria from '../../logiPics/pretoria.jpg';
+import Plumtree from '../../logiPics/masvingo.jpg'
 
 function Home() {
   const handleDragStart = (e) => e.preventDefault();
   const items = [
     <div id="reviewCard">
       <div id="reviewCardInner">
-        <h1>Turbo Pro SA</h1>
+        <h1>Skinny Tours</h1>
         <p>
-          Where Efficiency Meets Reliability - Delivering Solutions for All Turbo Needs.
+          Where Efficiency Meets Reliability - Delivering Solutions for All South Africa To Zimbabwe
+          Goods Transportation.
         </p>
-        {/* <button><a href="/services"></a>Our Work</button> */}
       </div>
     </div>,
     <div id="reviewCard01">
       <div id="reviewCardInner">
-        <h1>Explore Our Turbo Expertise</h1>
+        <h1>South Africa To Zimbabwe Malaicha</h1>
         <p>
-          Unlocking Success through Innovative Turbo Solutions - Your
-          Partner in Streamlining All Vehicle Parts
+          We pick your goods and deliver them safely to your relatives back in Zimbabwe
         </p>
-        {/* <button>Our Work</button> */}
       </div>
     </div>,
     <div id="reviewCard02">
       <div id="reviewCardInner">
-        <h1>Experience Excellence in Turbo Solutions</h1>
+        <h1>Zimbabwe To South Africa Malaicha</h1>
         <p>
-          Driving Growth, Building Trust - Delivering Beyond Expectations Every
-          Step of the Way
+          Whatever the parcel may be, Leave the logistics to us
         </p>
-        {/* <button id="homeMessage">Our Work</button> */}
       </div>
     </div>,
   ];
   const responsive = {
     0: { items: 1 },
     1024: { items: 1 },
+  };
+
+  const stopsItems = [
+    <div id="partnerCard">
+      <h4>Johannesburg</h4>
+      <div id="partnerCardBox">
+        <img src={Joburg} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+    <h4>Pretoria</h4>
+      <div id="partnerCardBox">
+        <img src={Pretoria} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+    <h4>Limpopo</h4>
+      <div id="partnerCardBox">
+        <img src={Limpopo} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+    <h4>Beitbridge Border Post</h4>
+      <div id="partnerCardBox">
+        <img src={Beitbridge} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+    <h4>Gwanda Town</h4>
+      <div id="partnerCardBox">
+        <img src={Gwanda} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+    <h4>Bulawayo Town</h4>
+      <div id="partnerCardBox">
+        <img src={Bulawayo} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+    <h4>Harare Town</h4>
+      <div id="partnerCardBox">
+        <img src={Harare} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+    <h4>Plumtree Town</h4>
+      <div id="partnerCardBox">
+        <img src={Plumtree} alt="" />
+      </div>
+    </div>,
+  ];
+  const stopsResponsive = {
+    0: { items: 1 },
+    1024: { items: 3 },
   };
 
 
@@ -78,7 +133,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                32 Van Riebeck Ave, (32D De'sun Place)<br></br> Edenvale, Gauteng 
+                  24, 10th Ave<br></br> Edenvale, Gauteng 
                 </small>
               </div>
             </div>
@@ -102,7 +157,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                  +27 11 568 6754<br></br>+27 74 227 4187<br></br>
+                  +27 10 023 4680<br></br>+27 63 066 8806<br></br>
                 </small>
               </div>
             </div>
@@ -114,7 +169,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                  sales@turboprosa.co.za<br></br> sales@turboprosa.co.za
+                  dumie@skinnytours.co.za<br></br>operations@skinnytours.co.za
                   <br></br>
                 </small>
               </div>
@@ -123,100 +178,79 @@ function Home() {
         </div>
 
         <div class="row" id="serviceWrap">
-          <h4>Sales and Turbo Charger Repairs</h4>
+          <h4>Malaicha & Cargo Carrier Services</h4>
           <div class="col-lg-4 col-md-4">
             <div id="serviceBoxCard">
               <img src={Service01} alt="" />
-              <h5>Centre Core or Cartridge</h5>
+              <h5>Goods Picking Up and Packing</h5>
               <p>
-                This element houses the key elements responsible for playing a vital role in extracting energy from exhaust gases and compressing intake air, thereby improving engine performance and efficiency. 
+                This process involves picking up the goods from a client, wrapping them and packing in our truck. 
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="serviceBoxCard">
               <img src={Service04} alt="" />
-              <h5>Complete Turbo Chargers</h5>
+              <h5>Complete Goods Double Check</h5>
               <p>
-                Complete turbochargers play a crucial role in modern engine technology, enabling vehicles to achieve higher performance, improved fuel efficiency, and reduced emissions without sacrificing power or torque.
+                We double check your goods to ensure every thing you gave us is on paper and in the truck.
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="serviceBoxCard">
               <img src={Service02} alt="" />
-              <h5>Turbo Shafts</h5>
+              <h5>On Transit</h5>
               <p>
-                Responsible for facilitating the transfer of energy from exhaust gases to intake air, 
-                contributing to increased engine performance and efficiency essential for reliable turbocharger operation
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="serviceBoxCard">
-              <img src={Service03} alt="" />
-              <h5>Turbo Compressor Wheel</h5>
-              <p>
-                Responsible for boosting engine performance by compressing intake air to higher pressures,
-                playing a role in the efficiency and effectiveness of the turbocharger.
+                Our responsible drivers and carriers therefore transport your goods from pick-up point to the destination
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="serviceBoxCard">
               <img src={Service05} alt="" />
-              <h5>Electronic Actuator</h5>
+              <h5>En Route Deliveries & Pick Ups</h5>
               <p>
-                It enables advanced control over boost pressure, turbine geometry, and transient performance characteristics improving engine efficiency, performance, and drivability.
+                If our client has any deliveries or pick up on route to destination, we'll gladly do that
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="serviceBoxCard">
+              <img src={Service03} alt="" />
+              <h5>On Arrival</h5>
+              <p>
+                We double check our goods-sheet against what arrives at the door of each customer
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="serviceBoxCard">
               <img src={Service06} alt="" />
-              <h5> Bearing Housing</h5>
+              <h5>Delivery</h5>
               <p>
-                The bearing housing is a critical component of the turbocharger assembly, providing support, sealing, and cooling for the rotating shaft and bearings.
+                After everything is cross-checked, we deliver the goods safely to our client
               </p>
             </div>
           </div>
         </div>
         <div id="offer">
-          <h4>Brands We Specialize In</h4>
-          <div class="row">
-            <div class="col-lg-3 col-md-4" id="offerCardBox">
-              <div id="offerCard">
-                <img src={MercedesLogo} />
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4" id="offerCardBox">
-              <div id="offerCard">
-              <img src={MazdaLogo} />
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4" id="offerCardBox">
-              <div id="offerCard">
-                <img src={BMWLogo} />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4" id="offerCardBox">
-              <div id="offerCard">
-              <img src={VWLogo} />
-              </div>
-            </div>
+          <h4>Our Pick Up or Delivery Stops</h4>
+          <div>
+            <AliceCarousel
+              mouseTracking
+              items={stopsItems}
+              autoPlay
+              disableButtonsControls={true}
+              disableDotsControls={true}
+              infinite={true}
+              autoPlayInterval={5000}
+              responsive={stopsResponsive}
+              animationType="fadeout"
+            />
           </div>
-          {/* <div id="newsLetter">
-            <h4>Please Subscribe To Our NewsLetter</h4>
-            <p>
-              Subscribe to our newsletter below so you don't miss any updates from us!,{" "}
-            </p>
-            <div id="newsLetterInput">
-              <input type="email" placeholder="Email address" />
-              <button>Subscribe</button>
-            </div>
-          </div> */}
         </div>
+       
         <div id="mission">
           <h4>
             Empowering Businesses,
@@ -282,7 +316,7 @@ function Home() {
                   </div>
                   <div id="homeContactCardIText">
                     <p>
-                    32 Van Riebeck Ave, (32D De'sun Place)<br></br>: Edenvale, Gauteng 
+                      24, 10th Avenue<br></br>: Edenvale, Gauteng 
                     </p>
                   </div>
                 </div>
@@ -302,7 +336,7 @@ function Home() {
                   </div>
                   <div id="homeContactCardIText">
                     <p>
-                      +27 11 568 6754<br></br>+27 74 227 4187<br></br>
+                      +27 10 023 4680<br></br>+27 63 066 8806<br></br>
                     </p>
                   </div>
                 </div>
@@ -312,7 +346,7 @@ function Home() {
                   </div>
                   <div id="homeContactCardIText">
                     <p>
-                      sales@turboprosa.co.za<br></br> sales@turboprosa.co.za
+                      dumie@skinnytours.co.za<br></br> operations@skinnytours.co.za
                     </p>
                   </div>
                 </div>
@@ -323,8 +357,7 @@ function Home() {
       </div>
       <div id="map">
           <h4>Find Us Here</h4>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5333650553034!2d28.15307557541321!3d-26.146753677112017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95124c665edded%3A0x1b7e4a39fb4db56!2s32%20Van%20Riebeeck%20Ave%2C%20Edenvale%2C%20Johannesburg%2C%202000!5e0!3m2!1sen!2sza!4v1709716272741!5m2!1sen!2sza" id="map" loading="lazy">
-          </iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.506535529691!2d28.15438977541336!3d-26.147627977111508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95124b62a12945%3A0x9f4cd9dcfde71324!2s24%2010th%20Ave%2C%20Edenvale%2C%201609!5e0!3m2!1sen!2sza!4v1710406868302!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       <Footer/>
     </>

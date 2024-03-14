@@ -8,7 +8,7 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <Link to="/" className="navbar-brand">
-          <p>Turbo Pro SA</p>
+          <p>Skinny Tours</p>
         </Link>
         <button
           class="navbar-toggler"
@@ -50,7 +50,7 @@ function Navbar() {
                 href="#"
                 id="navLinks"
               >
-                About
+                Gallery
               </a>
             </li>
             <li
@@ -65,7 +65,7 @@ function Navbar() {
                 href="#"
                 id="navLinks"
               >
-                Services
+                Reviews
               </a>
             </li>
             <li
@@ -87,12 +87,12 @@ function Navbar() {
           </ul>
           <div id="navBtn">
             <div id="navIcons">
-                <a href="https://www.facebook.com/profile.php?id=100093834465332" target="_blank">
+                <a href="" target="_blank">
                   <i class="bx bxl-facebook"></i>
                 </a>
             </div>
-            <Link to={'/contact'}>
-              <button type="submit"> Contact Us</button>
+            <Link to={'https://wa.me/+27630668806'}>
+              <button type="submit">WhatsApp</button>
             </Link>
           </div>
         </div>

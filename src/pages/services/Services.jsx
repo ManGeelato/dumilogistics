@@ -1,13 +1,5 @@
 import React from "react";
 import "./Services.css";
-import IHILogo from '../../assets/IHIturbo.jpg';
-import Mitsubishi from '../../assets/mitsubishi.jpg';
-import HolsetLogo from '../../assets/Holset.jpg';
-import Borgwarner from '../../assets/borgwarner.jpg';
-import garretAdvancing from '../../assets/Garret Advancing.jpg';
-import masterCard from '../../assets/cardAccepted1.jpg';
-import debitCard from '../../assets/cardAccepted2.jpg';
-import creditCard from '../../assets/cardAccepted3.jpg';
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
@@ -17,32 +9,32 @@ const handleDragStart = (e) => e.preventDefault();
   const items = [
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={IHILogo} alt="" />
+        {/* <img src={IHILogo} alt="" /> */}
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={Mitsubishi} alt="" />
+        {/* <img src={Mitsubishi} alt="" /> */}
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={HolsetLogo} alt="" />
+        {/* <img src={HolsetLogo} alt="" /> */}
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={IHILogo} alt="" />
+        {/* <img src={IHILogo} alt="" /> */}
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={Borgwarner} alt="" />
+        {/* <img src={Borgwarner} alt="" /> */}
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={garretAdvancing} alt="" />
+        {/* <img src={garretAdvancing} alt="" /> */}
       </div>
     </div>,
   ];
@@ -87,17 +79,17 @@ const handleDragStart = (e) => e.preventDefault();
   const paymentItems = [
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={debitCard} alt="" />
+        {/* <img src={debitCard} alt="" /> */}
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={masterCard} alt="" />
+        {/* <img src={masterCard} alt="" /> */}
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={creditCard} alt="" />
+        {/* <img src={creditCard} alt="" /> */}
       </div>
     </div>,
   ];
@@ -108,7 +100,7 @@ const handleDragStart = (e) => e.preventDefault();
   
   return (
     <>
-      <div>
+      {/* <div>
         <AliceCarousel
           mouseTracking
           items={backgroundImageItems}
@@ -120,9 +112,9 @@ const handleDragStart = (e) => e.preventDefault();
           responsive={backgroundImageResponsive}
           animationType="fadeout"
         />
-      </div>
+      </div> */}
       
-      <div className="container" id="serviceBox">
+      {/* <div className="container" id="serviceBox">
         <div id="homeMessage">
           <h4>What We Do.</h4>
           <div class="row">
@@ -204,7 +196,7 @@ const handleDragStart = (e) => e.preventDefault();
             responsive={paymentItemsResponsive}
           />
         </div>
-      </div>
+      </div> */}
       <Footer/>
     </>
   );

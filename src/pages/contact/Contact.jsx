@@ -1,6 +1,5 @@
 import React from "react";
 import "../about/About.css";
-import Banner01 from "../../assets/8.jpg";
 import Footer from "../../components/footer/Footer";
 
 function Contact() {
@@ -70,7 +69,7 @@ function Contact() {
                     </div>
                     <div id="homeContactCardIText">
                       <p>
-                      32 Van Riebeck Ave, (32D De'sun Place)<br></br>: Edenvale, Gauteng 
+                       24, 10th Avenue<br></br>: Edenvale, Gauteng 
                       </p>
                     </div>
                   </div>
@@ -90,7 +89,7 @@ function Contact() {
                     </div>
                     <div id="homeContactCardIText">
                       <p>
-                        +27 11 568 6754<br></br>+27 74 227 4187<br></br>
+                        +27 10 023 4680<br></br>+27 63 066 8806<br></br>
                       </p>
                     </div>
                   </div>
@@ -100,7 +99,7 @@ function Contact() {
                     </div>
                     <div id="homeContactCardIText">
                       <p>
-                        sales@turboprosa.co.za<br></br> sales@turboprosa.co.za
+                        dumie@skinnytours.co.za<br></br> operations@skinnytours.co.za
                       </p>
                     </div>
                   </div>
@@ -112,8 +111,7 @@ function Contact() {
 
       <div id="map">
         <h4>Find Us Here</h4>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5333650553034!2d28.15307557541321!3d-26.146753677112017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95124c665edded%3A0x1b7e4a39fb4db56!2s32%20Van%20Riebeeck%20Ave%2C%20Edenvale%2C%20Johannesburg%2C%202000!5e0!3m2!1sen!2sza!4v1709716272741!5m2!1sen!2sza" id="map" loading="lazy">
-        </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.506535529691!2d28.15438977541336!3d-26.147627977111508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95124b62a12945%3A0x9f4cd9dcfde71324!2s24%2010th%20Ave%2C%20Edenvale%2C%201609!5e0!3m2!1sen!2sza!4v1710406868302!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <Footer/>
     </>

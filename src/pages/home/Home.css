@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.726)),
-    url("../../assets/servicesRolling1.jpg");
+    url("../../logiPics/3803195.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.61)),
-    url("../../assets/9.jpg");
+    url("../../logiPics/4322562.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +31,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.5)),
-    url("../../assets/10.jpg");
+    url("../../logiPics/6232748.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.5)),
-    url("../../assets/11.jpg");
+    url("../../logiPics/6333.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,7 +58,7 @@
   justify-content: center;
 }
 #reviewCardInner h1 {
-  background: -webkit-linear-gradient(0deg, #4596C9, #fff);
+  background: -webkit-linear-gradient(0deg, #fff, #956A2A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -106,7 +106,7 @@
 }
 #homePageBox {
   padding: 40px 0px;
-  background-color: #4596C9;
+  background-color: #956A2A;
   border-radius: 5px;
 }
 #homeAddressCardIcon i {
@@ -156,10 +156,16 @@
   border-radius: 4px;
 }
 
+#offer h4{
+  color: black;
+  text-align: start;
+  line-height: 1.8rem;
+}
+
 #map {
   margin-top: 20px;
   padding: 8px 6px;
-  background: -webkit-linear-gradient(0deg, #808080, #4596C9);
+  background: -webkit-linear-gradient(0deg, #808080, #fcb962);
   border-radius: 4px;
 }
 
@@ -263,7 +269,7 @@
   align-items: center;
   justify-content: start;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.5)),
-    url("../../assets/12.jpg");
+    url("../../logiPics/20341.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -271,7 +277,7 @@
 #mission h4 {
     line-height: 3rem;
     font-size: 40px;
-  background: -webkit-linear-gradient(0deg, #3d74a0, #fff);
+  background: -webkit-linear-gradient(0deg, #fcb962, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -296,7 +302,7 @@
   margin-top: 0px;
 }
 #homeContactForm input {
-  border: 2px solid #4596C9;
+  border: 2px solid #fcb962;
   border-radius: 0px;
   background-color: #f5f5f5;
 }
@@ -304,14 +310,14 @@
   outline: none;
 }
 #homeContactForm textarea {
-  border: 2px solid #4596C9;
+  border: 2px solid #fcb962;
   border-radius: 0px;
   background-color: #f5f5f5;
 }
 #homeContactForm button {
   width: 100%;
-  background-color: #4596C9;
-  color: antiquewhite;
+  background: -webkit-linear-gradient(0deg, #fcb962, #fff);
+  color: black;
   border-radius: 0px;
   padding: 8px 0px;
 }
@@ -321,7 +327,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #4596C9;
+  background: -webkit-linear-gradient(0deg, #fcb962, #fff);
   height: 100%;
   border-radius: 5px;
   padding: 15px 0px;
@@ -341,14 +347,14 @@
   justify-content: center;
 }
 #homeContactCardIcon i {
-  color: antiquewhite;
+  color: black;
   font-size: 25px;
   padding: 8px;
-  border: 1px solid antiquewhite;
+  border: 1px solid black;
   border-radius: 50%;
 }
 #homeContactCardIText {
-  color: antiquewhite;
+  color: black;
 }
 #homeContactSocialLink {
   display: flex;

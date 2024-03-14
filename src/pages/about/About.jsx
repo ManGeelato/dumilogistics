@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import Banner01 from "../../assets/8.jpg";
 import Footer from "../../components/footer/Footer";
 
 function About() {
@@ -8,10 +7,10 @@ function About() {
     <>
       <div className="container-fluid" id="aboutPage">
         <div id="aboutPageBox">
-          <h2>About Us</h2>
+          <h2>Our Signature</h2>
         </div>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div class="row" id="aboutBoxCard">
           <h4>Who Are We ?</h4>
           <div class="col-lg-6 col-md-4">
@@ -155,7 +154,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer/>
     </>
   );

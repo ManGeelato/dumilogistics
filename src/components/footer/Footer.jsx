@@ -11,10 +11,7 @@ function Footer() {
               <i class="bx bxl-facebook"></i> Facebook Page
             </p>
             <p>
-              <i class="bx bxl-instagram"></i> Instagram Page
-            </p>
-            <p>
-              <i class="bx bxl-twitter"></i> Twitter Page
+              <i class="bx bxl-whatsapp"></i> WhatsApp Number
             </p>
           </div>
         </div>
@@ -22,8 +19,8 @@ function Footer() {
           <div id="footerCard">
             <h4>About Us</h4>
             <p>
-              At <strong>Turbo PRO SA</strong>, we specialize in turbocharge solutions tailored to enhance the performance of a wide range of vehicles, including popular brands like Volkswagen (VW), 
-              BMW, Mercedes-Benz, and Mazda. With years of expertise and a passion for automotive innovation, we're dedicated to providing high-quality turbocharging solutions that elevate driving experiences to new heights.
+              At <strong>Skinny Tours</strong>, we value how special each and every cargo is to you. We transport goods to and from South Africa
+              and Zimbabwe with utmost deligent and care. 
             </p>
           </div>
         </div>
@@ -31,17 +28,18 @@ function Footer() {
           <div id="footerCard">
             <h4>Quick Links</h4>
             <p><a href="/">Home</a></p>
-            <p><a href="/about">About</a></p>
-            <p><a href="/services">Services</a></p>
+            <p><a href="/about">Gallery</a></p>
+            <p><a href="/services">Contact</a></p>
           </div>
         </div>
         <div class="col-lg-3 col-md-4">
           <div id="footerCard">
             <h4>Contact Us</h4>
-            <p> 32 Van Riebeck Ave, (32D De'sun Place): Edenvale, Gauteng </p>
+            <p> 24, 10th Avenue: Edenvale, Gauteng </p>
             <p> Mon ~ Sunday: Open Holidays</p>
-            <p> +27 11 568 6754: +27 74 227 4187 </p>
-            <p> sales@turboprosa.co.za </p>
+            <p> +27 10 023 4680: +27 63 066 8806 </p>
+            <p> dumie@skinnytours.co.za </p>
+            <p> operations@skinnytours.co.za </p>
           </div>
         </div>
       </div>
